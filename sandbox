@@ -24,7 +24,7 @@ sandbox () {
           docker-compose build --pull
         fi
       else
-        source .env-latest
+        source .env-1x
         echo "Using latest, stable releases"
       fi
   # Enter attaches users to a shell in the desired container
